@@ -2,9 +2,7 @@
 
 A multi-agent research system powered by OpenAI's latest Agent SDK. Designed to simulate a complete research pipeline: planning searches, conducting deep web research, synthesizing long-form reports, and emailing outputs—all autonomously.
 
-<p align="center">
-  <img src="assets/business.png" width="150"/>
-</p>
+
 
 ##  Features
 
@@ -16,11 +14,23 @@ A multi-agent research system powered by OpenAI's latest Agent SDK. Designed to 
 
 ##  File Structure
 ├── deep_research.py # Main orchestrator to plan, search, write and email reports
+
+
 ├── planner_agent.py # Agent generating structured search plan
+
+
 ├── search_agent.py # Web search agent
+
+
 ├── writer_agent.py # Markdown report generator
+
+
 ├── email_agent.py # HTML email agent (SendGrid-based)
+
+
 ├── research_manager.py # Optional research coordinator (e.g. UI or task flow logic)
+
+
 ├── requirements.txt # All Python dependencies
 
  Commercial Impact
